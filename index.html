@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiplication App</title>
+    <link rel="stylesheet" href="/CSS/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="scr" class="innercontainerscore">
+        <span class="text">score: </span>
+        <span> 0</span>
+      </div>
+
+      <div id="ques" class="innercontainer">
+        <span class="text">What is </span>
+        <span id="num1">0</span>
+
+        <span class="text"> Multiply by </span>
+        <span id="num2">0</span>
+        <span class="text"> ?</span>
+      </div>
+
+      <div class="innercontainer">
+        <form id="form" class="form">
+          <input
+            id="ans"
+            type="text"
+            autocomplete="off"
+            placeholder="Enter Your Answer"
+            autofocus="on"
+          />
+          <button type="submit" id="btn">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="/Javascript/index.js"></script>
+  </body>
+</html>
